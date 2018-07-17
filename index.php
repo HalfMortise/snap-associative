@@ -28,4 +28,4 @@ function averageAge(array $personsArray) : float {
 	return ($totalAge / count($personsArray));
 }
 
-echo ("The average age is " . averageAge($paramArray) . PHP_EOL);
+echo ("The average age is ") . averageAge($paramArray) . PHP_EOL;
